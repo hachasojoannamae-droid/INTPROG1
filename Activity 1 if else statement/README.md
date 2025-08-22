@@ -33,3 +33,21 @@ if ($score >= 90) {
 }
 ?>
 
+switch statement 
+<?php
+$color = "green";
+
+switch ($color) {
+    case "red":
+        echo "Stop!";
+        break;
+    case "green":
+        echo "Go!";
+        break;
+    case "yellow":
+        echo "Wait!";
+        break;
+    default:
+        echo "Unknown color";
+}
+?>
