@@ -18,4 +18,18 @@ if ($temperature > 30) {
 }
 ?>
 
+if...elseif...else statement 
+<?php
+$score = 89;
+
+if ($score >= 90) {
+    echo "Grade: A\n";
+} elseif ($score >= 80) {
+    echo "Grade: B";
+} elseif ($score >= 70) {
+    echo "Grade: C";
+} else {
+    echo "Grade: F";
+}
+?>
 
